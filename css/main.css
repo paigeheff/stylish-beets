@@ -129,9 +129,18 @@ ul li {
   color: #222;
 }
 
-footer:link {
+footer {
   font-size: 0.8rem;
   color: #222;
+  text-align: left;
+}
 
+.Wikipedia {
+  color: #8f2440;
+  text-decoration: underline;
+}
 
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
 }
