@@ -22,10 +22,11 @@ nav a {
   font-size:1.125rem;
 }
 
-a:hover{
+a:hover {
   color:#3f1622;
   text-decoration: underline;
 }
+
 img {
   width: 100%;
 }
@@ -34,12 +35,33 @@ figcaption {
   font-style: italic;
   text-align: center;
 }
-p{
+p {
   font-weight: bold;
   font-size: 1.125rem;
 }
-p{
+p {
   font-size: 0.8rem;
   font-style:normal;
+}
+.beetroot{
+  font-weight: bold;
+}
+p {
+  font-size: 0.8rem;
+  font-style: normal;
+}
 
+.BattlestarGalactica {
+  font-style: italic;
+}
+
+p {
+  font-size: 0.8rem;
+  font-style:normal;
+}
+.weird {
+  font-style: italic;
+}
+.Ilovebeets {
+  font-weight: bold;
 }
