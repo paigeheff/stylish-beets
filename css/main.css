@@ -93,9 +93,10 @@ h2 {
   color: #3f1622;
   font-weight: bold;
   font-size: 1.125rem;
+  text-align: left;
 }
 
-ol li{
+ol li {
   list-style-type:lower-greek;
   font-size: 0.8rem;
   font-weight: normal;
@@ -107,9 +108,30 @@ p {
   font-style: italic;
 }
 
-dl li:nth-child(2n){
+dl li:nth-child(even) {
   color: #222;
   font-size: 0.8rem;
   font-weight: normal;
+}
+
+dl li:nth-child(odd) {
+  font-size: 0.8rem;
+  font-weight: bold;
+  font-style: normal;
   text-align: left;
+  color: #222;
+}
+
+ul li {
+  list-style-type: circle;
+  font-size: 0.8rem;
+  font-style: normal;
+  color: #222;
+}
+
+footer:link {
+  font-size: 0.8rem;
+  color: #222;
+
+
 }
