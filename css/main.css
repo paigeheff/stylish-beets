@@ -1,7 +1,8 @@
 hmtl {
   background-color: #c9b5ab;
   font-family: "PT Sans", sans-serif;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
+  line-height: 1.5rem;
 }
 
 header {
@@ -51,7 +52,8 @@ p {
   font-style:normal;
   font-weight: normal;
 }
-.beetroot{
+
+.beetroot {
   color: #222;
   font-weight: bold;
 }
@@ -73,19 +75,20 @@ p {
   font-size: 0.8rem;
   font-style:normal;
 }
+
 .weird {
   color: #222;
   font-style: italic;
 }
 
-p{
+p {
   font-weight: bold;
   font-style: italic;
   text-align: center;
   font-size: 1.125rem;
 }
 
-.chrispratt  {
+.chrispratt {
   font-size: 0.8rem;
   font-weight: normal;
 }
