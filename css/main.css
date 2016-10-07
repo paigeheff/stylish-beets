@@ -85,13 +85,19 @@ p figcaption {
   font-weight: bold;
   font-style: italic;
   text-align: center;
+  font-size: 0.8rem;
+}
+
+p data {
+  font-weight: bold;
+  font-style: normal;
   font-size: 1.125rem;
 }
 
 p {
-  font-weight: bold;
-  font-style: normal;
-  font-size: 1.125rem;
+  font-weight: normal;
+  font-style:italic;
+  font-size: 0.8 rem;
 }
 
 .chrispratt {
