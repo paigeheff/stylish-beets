@@ -1,4 +1,4 @@
-body {
+html {
   background-color:#c9b5ab;
   font-family: "PT Serif", serif;
   line-height: 1.5rem;
@@ -18,9 +18,13 @@ h1 {
   font-family: "PT Sans", sans-serif;
 }
 
-nav a {
+a {
   color: #8f2440;
   font-weight: bold;
+  text-decoration: none;
+}
+
+nav a {
   font-size:1.125rem;
 }
 
@@ -94,14 +98,4 @@ footer small {
   font-size: 0.8rem;
   color: #222;
   text-align: left;
-}
-
-.Wikipedia a {
-  color: #8f2440;
-  text-decoration: underline;
-}
-
-a:hover {
-  color: #3f1622;
-  text-decoration: underline;
 }
