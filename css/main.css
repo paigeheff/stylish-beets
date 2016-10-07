@@ -1,6 +1,5 @@
 body {
   background-color:#c9b5ab;
-  font-family: "PT Sans", sans-serif;
   font-family: "PT Serif", serif;
   line-height: 1.5rem;
 }
@@ -16,6 +15,7 @@ h1 {
   font-style: italic;
   font-weight: bold;
   font-size: 1.5rem;
+  font-family: "PT Sans", sans-serif;
 }
 
 nav a {
@@ -33,59 +33,20 @@ img {
   width: 100%;
 }
 
+p {
+  color: #222;
+}
+
 figcaption {
-  color: #222;
-  font-size: 0.8rem;
-  font-style: italic;
-  text-align: center;
-}
-
-p {
-  color: #222;
-  font-weight: bold;
-  font-size: 1.125rem;
-}
-
-p {
-  color: #222;
-  font-size: 0.8rem;
-  font-style:normal;
-  font-weight: normal;
-}
-
-.beetroot {
-  color: #222;
-  font-weight: bold;
-}
-
-p {
-  color: #222;
-  font-size: 0.8rem;
-  font-style: normal;
-  font-weight: normal;
-}
-
-.BattlestarGalactica {
-  color: #222;
-  font-style: italic;
-}
-
-p {
-  color: #222;
-  font-size: 0.8rem;
-  font-style:normal;
-}
-
-.weird {
-  color: #222;
-  font-style: italic;
-}
-
-p figcaption {
   font-weight: bold;
   font-style: italic;
   text-align: center;
   font-size: 0.8rem;
+}
+
+blockquote{
+  font-size: 1.5rem;
+  font-style: italic;
 }
 
 p data {
@@ -94,13 +55,7 @@ p data {
   font-size: 1.125rem;
 }
 
-p {
-  font-weight: bold;
-  font-style: italic;
-  font-size: 0.8rem;
-}
-
-.chrispratt {
+blockquote cite {
   font-size: 0.8rem;
   font-weight: normal;
 }
@@ -110,32 +65,22 @@ h2 {
   font-weight: bold;
   font-size: 1.125rem;
   text-align: left;
+  font-family: "PT Sans", sans-serif;
 }
 
-h2 ol li {
+ol li {
   list-style-type:lower-greek;
   font-size: 0.8rem;
   font-weight: normal;
 }
-
-p {
-  color: #222;
-  font-size: 0.8rem;
-  font-style: italic;
+nav ol li{
+  list-style-type: none;
 }
 
-dl li:nth-child(even) {
+dt {
   color: #222;
-  font-size: 0.8rem;
-  font-weight: normal;
-}
-
-dl li:nth-child(odd) {
   font-size: 0.8rem;
   font-weight: bold;
-  font-style: normal;
-  text-align: left;
-  color: #222;
 }
 
 ul li {
@@ -145,7 +90,7 @@ ul li {
   color: #222;
 }
 
-footer {
+footer small {
   font-size: 0.8rem;
   color: #222;
   text-align: left;
